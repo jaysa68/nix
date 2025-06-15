@@ -50,6 +50,7 @@ in
     };
 
     programs.steam.enable = true;
+    programs.goldwarden.enable = true;
 
     environment.systemPackages = with pkgs; [
       plasma-applet-commandoutput
